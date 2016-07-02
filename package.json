@@ -1,0 +1,51 @@
+{
+  "name": "telegraf-mixpanel",
+  "version": "0.0.0",
+  "description": "Telegraf mixpanel middleware",
+  "main": "lib/mixpanel.js",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/telegraf/telegraf-mixpanel.git"
+  },
+  "keywords": [
+    "telegram",
+    "telegram bot",
+    "telegraf",
+    "bot framework",
+    "mixpanel",
+    "stats"
+  ],
+  "author": "Vitaly Domnikov <dotcypress@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/telegraf/telegraf-mixpanel/issues"
+  },
+  "homepage": "https://github.com/telegraf/telegraf-mixpanel#readme",
+  "engines": {
+    "node": ">=6.2.0"
+  },
+  "files": [
+    "lib/mixpanel.js"
+  ],
+  "scripts": {
+    "test": "mocha test --require should"
+  },
+  "dependencies": {
+    "bluebird": "^3.4.1",
+    "debug": "^2.2.0",
+    "mixpanel": "^0.4.0"
+  },
+  "peerDependencies": {
+    "telegraf": "^2.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^2.10.2",
+    "eslint-config-standard": "^5.3.1",
+    "eslint-plugin-mocha": "^3.0.0",
+    "eslint-plugin-promise": "^1.1.0",
+    "eslint-plugin-standard": "^1.3.2",
+    "mocha": "^2.4.5",
+    "should": "^9.0.2",
+    "telegraf": "^2.0.0"
+  }
+}
